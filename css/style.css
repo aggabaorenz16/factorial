@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Comfortaa' !important;
+  text-align: center;
+}
+
+form {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 4%;
+}
+
+input {
+  margin: 20px;
+  outline: none;
+  text-align: center;
+  font-size: 23px;
+  padding: 12px 24px 12px 24px;
+  -webkit-box-shadow: 0px 5px #0000005d;
+          box-shadow: 0px 5px #0000005d;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  background-color: rgba(219, 197, 197, 0.521);
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.example {
+  background-color: rgba(0, 0, 0, 0.349);
+  color: black;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin: 90px;
+  background-color: rgba(128, 128, 128, 0.212);
+}
+
+@media (max-width: 480px) {
+  form {
+    margin-top: 200px;
+  }
+  input {
+    width: 300px;
+  }
+  p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 780px) {
+  form {
+    margin-top: 200px;
+  }
+  input {
+    width: 300px;
+  }
+  p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1200px) {
+  form {
+    margin-top: 200px;
+  }
+  input {
+    width: 300px;
+  }
+  p {
+    text-align: center;
+  }
+}
